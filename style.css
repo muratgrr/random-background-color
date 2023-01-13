@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  color: white;
+  font-size: 1.3rem;
+  width: 350px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px 30px 10px 30px;
+  background-image: linear-gradient(90deg, #175fba, #c22d37);
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  margin-top: 10px;
+}
